@@ -59,7 +59,7 @@ input[type="submit"] {
 .main-nav {
   display: flex;
   justify-content: center;
-  font-family: 'Arbutus Slab', serif;
+  font-family: 'Noto Serif', serif;
   align-items: center;
   height: 85px;
   background-color: white;
@@ -68,12 +68,17 @@ input[type="submit"] {
 
 .main-nav h1 {
   font-size: 24px;
-  margin: 0px 20px 0px 20px;
+  /* font-weight: bold; */
+  margin: 0px 40px 0px 40px;
   padding: 0;
 }
 
 .main-nav li {
-  margin: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 40px;
+}
+
+.main-nav li:hover {
+  color: #aaa;
 }
 
 .main-nav li:first-child {
@@ -87,6 +92,7 @@ input[type="submit"] {
 
 .nav-right {
   display: flex;
+  margin-top: 2px;
 }
 
 
