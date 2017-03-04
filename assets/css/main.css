@@ -16,10 +16,6 @@ span, article, footer, time, small {
   background: transparent;
 }
 
-body {
-  background-color: #edf0f5;
-}
-
 ul {
   list-style: none;
 }
@@ -58,8 +54,34 @@ input[type="submit"] {
   clear: both;
 }
 
-@media only screen and (max-width: 1000px) {
-  .features {
-    display: none;
-  }
+/* Styles for site go here */
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: black;
+  color: white;
 }
+
+.main-nav h1 {
+  font-size: 48px;
+}
+
+.main-nav li {
+  margin: 0px 10px 0px 10px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+
