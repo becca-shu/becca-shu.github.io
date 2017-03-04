@@ -59,8 +59,9 @@ input[type="submit"] {
 .main-nav {
   display: flex;
   justify-content: center;
+  font-family: 'Arbutus Slab', serif;
   align-items: center;
-  height: 75px;
+  height: 85px;
   background-color: white;
   color: black;
 }
