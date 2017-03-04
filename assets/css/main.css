@@ -86,6 +86,7 @@ input[type="submit"] {
 }
 
 
+
 .nav-left {
   display: flex;
 }
@@ -95,6 +96,9 @@ input[type="submit"] {
   margin-top: 2px;
 }
 
+.nav-right li:last-child {
+  margin: 0px 40px 0px 40px;
+}
 
 .banner {
   position: relative;
@@ -111,5 +115,9 @@ input[type="submit"] {
   font-family: sans-serif;
   font-size: 24px;
   font-weight: bold;
+}
+
+.caption:after {
+  content: "Intuitive Tarot Reader for Hire"
 }
 
