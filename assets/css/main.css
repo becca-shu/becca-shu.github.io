@@ -67,22 +67,27 @@ input[type="submit"] {
 
 .main-nav h1 {
   font-size: 24px;
+  margin: 0px 20px 0px 20px;
+  padding: 0;
 }
 
 .main-nav li {
   margin: 0px 0px 0px 20px;
 }
 
+.main-nav li:first-child {
+  margin: 0px 0px 0px 0px;
+}
+
+
 .nav-left {
   display: flex;
-  margin-right: 20px;
 }
 
 .nav-right {
   display: flex;
-  margin-left: 0px;
-  /* margin-top: 2px; */
 }
+
 
 .banner {
   position: relative;
@@ -93,11 +98,11 @@ input[type="submit"] {
   justify-content: center;
   position: absolute;
   top: 300px;
+  /* left: 20px; */
   width: 100%;
   color: white;
   font-family: sans-serif;
   font-size: 24px;
   font-weight: bold;
 }
-
 
