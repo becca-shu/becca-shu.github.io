@@ -114,7 +114,7 @@ img {
   max-height: 100%;
 }
 
-.caption  {
+.animation  {
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 4s; /* Firefox < 16 */
         -ms-animation: fadein 4s; /* Internet Explorer */
