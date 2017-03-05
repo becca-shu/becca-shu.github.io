@@ -241,6 +241,10 @@ img {
   font-style: italic;
 }
 
+.about article p a {
+  color: blue;
+}
+
 .about article p:first-child {
   font-size: 26px;
 }
