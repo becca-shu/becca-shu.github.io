@@ -67,7 +67,7 @@ input[type="submit"] {
 }
 
 .main-nav h1 {
-  font-size: 24px;
+  font-size: 30px;
   /* font-weight: bold; */
   margin: 0px 40px 0px 40px;
   padding: 0;
@@ -75,6 +75,7 @@ input[type="submit"] {
 
 .main-nav li {
   margin: 0px 0px 0px 40px;
+  font-size: 16px;
 }
 
 .main-nav li:hover {
