@@ -102,11 +102,15 @@ input[type="submit"] {
 }
 
 .banner {
-  position: fixed;
+  position: absolute;
   left:0;
   right:0;
   top:85px;
   bottom:0;
+}
+
+.fixed {
+  position: fixed;
 }
 
 img {
@@ -197,3 +201,38 @@ img {
   color: white;
   font-weight: bold;
 }
+
+/* About! */
+
+.about {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 136px;
+}
+
+
+.about article {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 18px;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.75);
+  width: 700px;
+}
+
+.about article p {
+  margin: 0px 0px 20px 0px;
+}
+
+.about article p:first-child {
+  font-size: 26px;
+}
+
+.about article p:last-child {
+  margin: 0px;
+}
+
+
+
