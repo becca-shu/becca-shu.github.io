@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const name = $('#name').val();
     const email = $('#email').val();
     const message = $('#message').val();
-    $('submit-form').prop('disabled', true);
-    $('submit-form').html('Sending...');
+    $('#submit-form').prop('disabled', true);
+    $('#submit-form').html('Sending...');
     $.ajax({
       url:'https://formspree.io/tarotisforeveryone@gmail.com',
       method:'POST',
@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
       success:function() {
         $form.hide();
         $('#thank-you-block').show();
-        $('submit-form').prop('disabled', false);
-        $('submit-form').html('Send');
+        $('#submit-form').prop('disabled', false);
+        $('#submit-form').html('Send');
         console.log('success');
       }
     });
