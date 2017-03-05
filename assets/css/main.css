@@ -121,3 +121,30 @@ input[type="submit"] {
   content: "Intuitive Tarot Reader for Hire"
 }
 
+.contact {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 100%;
+}
+
+
+#contact-form{
+  width: 500px;
+}
+
+#contact-form input {
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+
+#contact-form button {
+  border-radius: 3px;
+  padding: 5px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
