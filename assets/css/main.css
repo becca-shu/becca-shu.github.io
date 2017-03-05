@@ -59,7 +59,7 @@ input[type="submit"] {
 .main-nav {
   display: flex;
   justify-content: center;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Libre Baskerville', serif;
   align-items: center;
   height: 85px;
   background-color: white;
