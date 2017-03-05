@@ -93,6 +93,10 @@ input[type="submit"] {
   margin: 0px 0px 0px 0px;
 }
 
+.current-page {
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
 
 
 .nav-left {
