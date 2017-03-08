@@ -202,12 +202,27 @@ img {
   border: 1px solid black;
   border-radius: 2px;
   padding: 5px;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 10px;
 }
+
+#contact-form textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: white;
+}
+
+
 
 
 #contact-form button {
   border-radius: 3px;
   padding: 5px;
+  margin-left: 90%;
   background-color: green;
   color: white;
   font-weight: bold;
