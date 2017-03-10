@@ -8,9 +8,11 @@
     <script src="https://cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script>
-      window.addEventListener('load', () => {
-        document.getElementById("caption").classList.add("animation");
+      window.addEventListener('DOMContentLoaded', () => {
         var bLazy = new Blazy({
+          success: () => {
+            document.getElementById("caption").classList.add("animation");
+          }
         });
       });
     </script>
