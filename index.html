@@ -5,11 +5,14 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script>
       window.addEventListener('load', () => {
         document.getElementById("caption").classList.add("animation");
-      })
+        var bLazy = new Blazy({
+        });
+      });
     </script>
   </head>
   <body>
@@ -25,7 +28,9 @@
       </ul>
     </ul>
     </nav>
-      <img class='banner fixed' src='assets/images/banner.jpg'>
+    <img class="banner fixed b-lazy"
+      src="assets/images/banner-low-res.jpg"
+      data-src="assets/images/banner.jpg">
         <div class='caption' id='caption'></div>
       </img>
   </body>

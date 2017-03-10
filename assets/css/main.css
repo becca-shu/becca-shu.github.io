@@ -221,8 +221,8 @@ img {
 
 #contact-form button {
   border-radius: 3px;
-  padding: 5px;
-  margin-left: 93%;
+  padding: 5px 15px 5px 15px;
+  margin-left: 88.5%;
   background-color: green;
   color: white;
   font-weight: bold;
