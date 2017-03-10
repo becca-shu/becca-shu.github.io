@@ -8,6 +8,19 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" charset="utf-8" src='assets/js/formspree.js'></script>
+    <script src="https://cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        var bLazy = new Blazy({
+          loadInvisible: true,
+          success: () => {
+            const page = document.getElementById("html-id")
+            page.style.background = "url(assets/images/banner.jpg) no-repeat center center fixed"
+            page.setAttribute('style', "background-size: cover")
+          }
+        });
+      });
+    </script>
   </head>
   <body>
     <nav class='main-nav'>
@@ -22,6 +35,11 @@
       </ul>
     </ul>
     </nav>
+    <img class="b-lazy background"
+    src="assets/images/banner-very-low-res.jpg"
+    data-src="assets/images/banner.jpg"
+    alt="alt-text"
+    />
     <section class='text-content'>
       <article>
         <section class='contact'>

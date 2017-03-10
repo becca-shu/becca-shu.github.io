@@ -1,4 +1,4 @@
-<html>
+<html id="html-id">
   <head>
     <title>Tarot Is For Everyone</title>
     <meta charset="utf-8" />
@@ -6,6 +6,19 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        var bLazy = new Blazy({
+          loadInvisible: true,
+          success: () => {
+            const page = document.getElementById("html-id")
+            page.style.background = "url(assets/images/banner.jpg) no-repeat center center fixed"
+            page.setAttribute('style', "background-size: cover")
+          }
+        });
+      });
+    </script>
   </head>
   <body>
     <nav class='main-nav'>
@@ -20,6 +33,11 @@
       </ul>
     </ul>
     </nav>
+    <img class="b-lazy background"
+    src="assets/images/banner-very-low-res.jpg"
+    data-src="assets/images/banner.jpg"
+    alt="alt-text"
+    />
     <section class='text-content'>
       <article>
         <p>Hello and welcome!</p>

@@ -15,13 +15,6 @@ span, article, footer, time, small {
   box-sizing: inherit;
   background: transparent;
 }
-html {
-  background: url(../images/banner.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 ul {
   list-style: none;
@@ -295,5 +288,19 @@ img {
   margin-left: 20px
 }
 
+.invisible {
+  display: none;
+}
+
+.background {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
 
 
