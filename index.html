@@ -11,7 +11,9 @@
       window.addEventListener('DOMContentLoaded', () => {
         var bLazy = new Blazy({
           success: () => {
-            document.getElementById("caption").classList.add("animation");
+            const caption = document.getElementById("caption")
+              caption.setAttribute('style', 'display: flex;')
+              caption.classList.add("animation");
           }
         });
       });

@@ -168,7 +168,7 @@ img {
 
 
 .caption {
-  display: flex;
+  display: none;
   justify-content: center;
   position: absolute;
   top: 300px;
