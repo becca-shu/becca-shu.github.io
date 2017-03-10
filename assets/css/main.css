@@ -241,11 +241,12 @@ img {
 
 
 .text-content article {
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  line-height: 28px;
   padding: 30px 50px 30px 50px;
   border-radius: 8px;
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255,255,255,.9);
   width: 700px;
 }
 
