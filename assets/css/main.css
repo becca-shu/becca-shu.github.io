@@ -236,7 +236,7 @@ img {
 
 .text-content article {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
   padding: 30px 50px 30px 50px;
   border-radius: 8px;
@@ -249,7 +249,8 @@ img {
 }
 
 .text-content h2 {
-  font-size: 18px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -267,7 +268,9 @@ img {
 }
 
 .text-content article p:first-child {
+  font-family: "Libre Baskerville", serif;
   font-size: 26px;
+  margin-bottom: 40px;
 }
 
 
@@ -275,9 +278,16 @@ img {
   margin: 0px;
 }
 
-#services-top-table {
-  display:flex;
-  margin-bottom: 20px;
+.services dt {
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.services ul {
+  list-style: disc;
+  margin-left: 50px;
+  margin-bottom: 40px;
 }
 
 #small-questions {
