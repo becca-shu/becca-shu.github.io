@@ -284,9 +284,14 @@ i {
 }
 
 .text-content article p:first-child {
-  font-family: "Libre Baskerville", serif;
+  font-family: "libre baskerville", serif;
   font-size: 26px;
   margin-bottom: 40px;
+}
+.body-header {
+  font-family: "libre baskerville", serif;
+  font-size: 26px;
+  padding-bottom: 30px;
 }
 
 
@@ -341,3 +346,8 @@ i {
   text-align: center !important;
 }
 
+.becca-img {
+  margin:0 auto 0 auto;
+  height: auto;
+  width: 50%;
+}
