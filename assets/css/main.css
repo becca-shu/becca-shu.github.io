@@ -329,4 +329,15 @@ i {
   z-index: -2;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.centered {
+  text-align: center !important;
+}
 
